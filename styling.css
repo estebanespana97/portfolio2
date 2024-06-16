@@ -89,7 +89,7 @@ main{
     text-align: center;
 }
 
-a, h1, h2, p, img{
+a, h1, p, img{
     color: white;
     justify-content: center;
     margin-left: auto;
@@ -97,6 +97,34 @@ a, h1, h2, p, img{
     flex: 1;
 }
 
-img{
-    max-width: fit-content;
+
+section{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    outline: 5px solid orange;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.h2HomePage{
+    color: white;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1;
+}
+
+.h2AboutPage{
+    color: white;
+    justify-content: left;
+    flex: 1;
+}
+
+hr{
+    width: 80%;
+}
+
+.portfolioPageSection{
+    background-color: beige;
 }
