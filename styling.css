@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    margin: 0;
 }
 
 .headerDiv{
@@ -52,7 +53,7 @@ div{
 main{
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: max-content;
     width: 75vw;
     margin-right: auto;
     margin-left: auto;
@@ -69,6 +70,7 @@ main{
     bottom: 0;
     left: 0;
     z-index: 1;
+    flex: 1;
 }
 
 .footerContainer{
@@ -89,7 +91,27 @@ main{
     text-align: center;
 }
 
-a, h1, h2, p, img{
+a, h1, p, img{
+    color: white;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: max-content;
+    max-height: 100px;
+    flex: 1;
+}
+
+
+section{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    outline: 5px solid orange;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.h2HomePage{
     color: white;
     justify-content: center;
     margin-left: auto;
@@ -97,6 +119,29 @@ a, h1, h2, p, img{
     flex: 1;
 }
 
-img{
-    max-width: fit-content;
+.h2AboutPage{
+    color: white;
+    justify-content: left;
+    flex: 1;
+}
+
+.portfolioPageColor{
+    color: black;
+    justify-content: left;
+    flex: 1;
+}
+
+
+hr{
+    width: 80%;
+}
+
+.portfolioPageSection{
+    background-color: beige;
+}
+
+.imgFloatRight{
+    float: right;
+    padding: 5px;
+    clear:both;
 }
