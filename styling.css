@@ -139,9 +139,3 @@ hr{
 .portfolioPageSection{
     background-color: beige;
 }
-
-.imgFloatRight{
-    float: right;
-    padding: 5px;
-    clear:both;
-}
