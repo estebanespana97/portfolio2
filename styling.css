@@ -101,7 +101,6 @@ a, h1, p, img{
     flex: 1;
 }
 
-
 section{
     display: flex;
     width: 100%;
@@ -138,4 +137,10 @@ hr{
 
 .portfolioPageSection{
     background-color: beige;
+}
+
+@media(max-width: 600px){
+    body{
+        background-color: red;
+    }
 }
